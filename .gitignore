@@ -1,24 +1,83 @@
-# Compiled class file
-*.class
+# --------------------------
+# React 관련 무시 항목
+# --------------------------
 
-# Log file
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Local env files
+.env
+.env.*.local
+
+# System files
+.DS_Store
+
+# --------------------------
+# Python / Django 관련 무시 항목
+# --------------------------
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Django DB
+*.sqlite3
+db.sqlite3
+
+# Django static/media
+media/
+staticfiles/
+static/
+
+# Test / coverage
+coverage/
+*.cover
 *.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.tgz
+*.egg-info/
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
 
-# BlueJ files
-*.ctxt
+# --------------------------
+# IDE 관련 무시 항목
+# --------------------------
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# VSCode
+.vscode/
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+# PyCharm
+.idea/
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# --------------------------
+# ML 관련 무시 항목
+# --------------------------
+
+# Model weights / results
+*.pt
+*.pth
+*.onnx
+runs/
+checkpoints/
+weights/
+logs/
