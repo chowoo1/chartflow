@@ -74,7 +74,7 @@ htmlcov/
 # --------------------------
 
 # Model weights / results
-*.pt
+# *.pt 이건 올라가야함
 *.pth
 *.onnx
 runs/
